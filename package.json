@@ -1,0 +1,14 @@
+{
+  "name": "electron-find-in-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "haybartlett@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.7.5"
+  }
+}

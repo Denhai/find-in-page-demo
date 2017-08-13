@@ -1,0 +1,56 @@
+#find-container {
+  position: fixed;
+  top: 50px;
+  right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
+  background-color: white;
+}
+
+#find-container input {
+  border: none;
+  font-size: 1.2em;
+  padding: 6px;
+}
+
+#find-container input:focus {
+  outline: none;
+}
+
+#find-container .label {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#find-container[hidden] {
+  display: none !important;
+}
+
+#find-container .icon {
+  width: 16px;
+  fill: rgba(0, 0, 0, 0.7);
+  padding: 0 5px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+#find-container .icon svg {
+  width: 10px;
+  height: auto;
+}
+
+#find-container .icon:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
